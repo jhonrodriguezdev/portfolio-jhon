@@ -1,0 +1,36 @@
+/* ==========================================================================
+   SISTEMA DE DISEÑO GLOBAL - PORTFOLIO JHON
+   ========================================================================== */
+
+:root {
+    /* Paleta de Colores (Premium Dark/Modern) */
+    --bg-primary: #0a0a0c;
+    --bg-secondary: #121216;
+    --accent-color: #00e676; /* Verde tecnológico */
+    --text-main: #ffffff;
+    --text-muted: #8a8a93;
+    --border-color: #27272a;
+
+    /* Tipografía y Escala */
+    --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+    --body-size: 1rem;
+    --h1-size: 2.5rem;
+
+    /* Transiciones */
+    --transition-fast: 0.2s ease;
+}
+
+/* Reset Básico de Ingeniería */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-main);
+    font-family: var(--font-main);
+    font-size: var(--body-size);
+    line-height: 1.6;
+}
